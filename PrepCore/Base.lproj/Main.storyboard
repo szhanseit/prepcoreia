@@ -12,10 +12,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Welcome View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PrepCore" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,10 +41,12 @@
                                         <real key="value" value="0.20000000000000001"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="zVd-Nv-kLd" kind="show" id="shs-Sy-cax"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zv-Dw-mKB">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zv-Dw-mKB">
                                 <rect key="frame" x="219" y="795" width="180" height="65"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="ABeeZee-Regular" family="ABeeZee" pointSize="18"/>
                                 <state key="normal" title="REGISTER">
@@ -59,9 +61,15 @@
                                         <real key="value" value="0.10000000000000001"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="2GH-vT-Egf" kind="show" id="T7I-vI-ODM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="2zv-Dw-mKB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="751" id="RHm-GL-BaL"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -69,18 +77,21 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="OMS-xw-RxY">
             <objects>
-                <viewController id="2GH-vT-Egf" customClass="ViewController" customModule="PrepCore" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2GH-vT-Egf" customClass="SignUpViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kda-9H-OPs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.turn.up.left" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Vnd-L3-8Ji">
                                 <rect key="frame" x="20" y="46" width="37" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Telephone Number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Zi-nf-J9a">
                                 <rect key="frame" x="36" y="272" width="343" height="43"/>
@@ -147,22 +158,27 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <bool key="isElement" value="YES"/>
+                        </accessibility>
                         <constraints>
+                            <constraint firstItem="157-FJ-c4s" firstAttribute="centerX" secondItem="kda-9H-OPs" secondAttribute="centerX" id="WkN-UJ-cy3"/>
                             <constraint firstItem="157-FJ-c4s" firstAttribute="centerX" secondItem="kda-9H-OPs" secondAttribute="centerX" id="a89-gm-weT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jRE-5R-8xK"/>
                     </view>
+                    <navigationItem key="navigationItem" id="esf-Dt-g6l"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="osE-Zx-OVp" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1109" y="-117"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="aQc-Yl-qdK">
             <objects>
-                <viewController id="zVd-Nv-kLd" customClass="ViewController" customModule="PrepCore" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zVd-Nv-kLd" customClass="LoginViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ybx-yJ-qkh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.turn.up.left" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="leZ-un-3ru">
@@ -223,10 +239,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="uJu-13-9D7"/>
                     </view>
+                    <navigationItem key="navigationItem" id="MWr-Q7-hIb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QPR-dm-PFH" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1109" y="584"/>
+            <point key="canvasLocation" x="1108.6956521739132" y="583.92857142857144"/>
         </scene>
     </scenes>
     <resources>
