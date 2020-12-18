@@ -125,7 +125,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="OMS-xw-RxY">
             <objects>
-                <viewController id="2GH-vT-Egf" customClass="SignUpViewController" sceneMemberID="viewController">
+                <viewController id="2GH-vT-Egf" customClass="SignUpViewController" customModule="PrepCore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kda-9H-OPs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -213,6 +213,15 @@
                         <viewLayoutGuide key="safeArea" id="jRE-5R-8xK"/>
                     </view>
                     <navigationItem key="navigationItem" id="esf-Dt-g6l"/>
+                    <connections>
+                        <outlet property="confirmPassword" destination="fPj-MJ-heR" id="0fK-k1-UUt"/>
+                        <outlet property="emailAddress" destination="scA-oU-TSB" id="4yM-5W-aOG"/>
+                        <outlet property="firstName" destination="3bi-Vy-Ftu" id="xUO-JY-6Yj"/>
+                        <outlet property="lastName" destination="2CD-qb-bfm" id="H8Y-LB-8fU"/>
+                        <outlet property="password" destination="neA-Eg-Mx2" id="5jv-eC-7UL"/>
+                        <outlet property="signUpButton" destination="HnN-J0-ujl" id="5Jt-Tm-AS5"/>
+                        <outlet property="teleNumber" destination="9Zi-nf-J9a" id="stD-I1-v7H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="osE-Zx-OVp" sceneMemberID="firstResponder"/>
             </objects>

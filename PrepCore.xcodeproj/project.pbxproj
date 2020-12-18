@@ -10,22 +10,26 @@
 		1C0B80752550796B0013AE11 /* abeezee in Resources */ = {isa = PBXBuildFile; fileRef = 1C0B80742550796B0013AE11 /* abeezee */; };
 		1C260D2425472F6400F0EEA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C260D2325472F6400F0EEA2 /* AppDelegate.swift */; };
 		1C260D2625472F6400F0EEA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C260D2525472F6400F0EEA2 /* SceneDelegate.swift */; };
-		1C260D2825472F6400F0EEA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C260D2725472F6400F0EEA2 /* ViewController.swift */; };
+		1C260D2825472F6400F0EEA2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C260D2725472F6400F0EEA2 /* SignUpViewController.swift */; };
 		1C260D2B25472F6400F0EEA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C260D2925472F6400F0EEA2 /* Main.storyboard */; };
 		1C260D2D25472F6C00F0EEA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C260D2C25472F6C00F0EEA2 /* Assets.xcassets */; };
 		1C260D3025472F6C00F0EEA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C260D2E25472F6C00F0EEA2 /* LaunchScreen.storyboard */; };
+		406A6ADAA49C0577F2A69E43 /* libPods-PrepCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 959D01BDD5A80EC0CFDA5004 /* libPods-PrepCore.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		182E674C2A710353B814D70F /* Pods-PrepCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrepCore.debug.xcconfig"; path = "Target Support Files/Pods-PrepCore/Pods-PrepCore.debug.xcconfig"; sourceTree = "<group>"; };
 		1C0B80742550796B0013AE11 /* abeezee */ = {isa = PBXFileReference; lastKnownFileType = folder; name = abeezee; path = ../../../../Downloads/abeezee; sourceTree = "<group>"; };
 		1C260D2025472F6400F0EEA2 /* PrepCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrepCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C260D2325472F6400F0EEA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C260D2525472F6400F0EEA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1C260D2725472F6400F0EEA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C260D2725472F6400F0EEA2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		1C260D2A25472F6400F0EEA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C260D2C25472F6C00F0EEA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C260D2F25472F6C00F0EEA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C260D3125472F6C00F0EEA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		959D01BDD5A80EC0CFDA5004 /* libPods-PrepCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrepCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E48E1F5A9791CF686AD59818 /* Pods-PrepCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrepCore.release.xcconfig"; path = "Target Support Files/Pods-PrepCore/Pods-PrepCore.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406A6ADAA49C0577F2A69E43 /* libPods-PrepCore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				1C260D2225472F6400F0EEA2 /* PrepCore */,
 				1C260D2125472F6400F0EEA2 /* Products */,
+				2C7FD627B10FAA9D28800CE7 /* Pods */,
+				D30F7DC022AA7422C803E08F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,13 +68,31 @@
 				1C0B80742550796B0013AE11 /* abeezee */,
 				1C260D2325472F6400F0EEA2 /* AppDelegate.swift */,
 				1C260D2525472F6400F0EEA2 /* SceneDelegate.swift */,
-				1C260D2725472F6400F0EEA2 /* ViewController.swift */,
+				1C260D2725472F6400F0EEA2 /* SignUpViewController.swift */,
 				1C260D2925472F6400F0EEA2 /* Main.storyboard */,
 				1C260D2C25472F6C00F0EEA2 /* Assets.xcassets */,
 				1C260D2E25472F6C00F0EEA2 /* LaunchScreen.storyboard */,
 				1C260D3125472F6C00F0EEA2 /* Info.plist */,
 			);
 			path = PrepCore;
+			sourceTree = "<group>";
+		};
+		2C7FD627B10FAA9D28800CE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				182E674C2A710353B814D70F /* Pods-PrepCore.debug.xcconfig */,
+				E48E1F5A9791CF686AD59818 /* Pods-PrepCore.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D30F7DC022AA7422C803E08F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				959D01BDD5A80EC0CFDA5004 /* libPods-PrepCore.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,6 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C260D3425472F6C00F0EEA2 /* Build configuration list for PBXNativeTarget "PrepCore" */;
 			buildPhases = (
+				FA8951138968710409389EF3 /* [CP] Check Pods Manifest.lock */,
 				1C260D1C25472F6400F0EEA2 /* Sources */,
 				1C260D1D25472F6400F0EEA2 /* Frameworks */,
 				1C260D1E25472F6400F0EEA2 /* Resources */,
@@ -137,12 +163,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FA8951138968710409389EF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrepCore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1C260D1C25472F6400F0EEA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C260D2825472F6400F0EEA2 /* ViewController.swift in Sources */,
+				1C260D2825472F6400F0EEA2 /* SignUpViewController.swift in Sources */,
 				1C260D2425472F6400F0EEA2 /* AppDelegate.swift in Sources */,
 				1C260D2625472F6400F0EEA2 /* SceneDelegate.swift in Sources */,
 			);
@@ -286,6 +337,7 @@
 		};
 		1C260D3525472F6C00F0EEA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 182E674C2A710353B814D70F /* Pods-PrepCore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +355,7 @@
 		};
 		1C260D3625472F6C00F0EEA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E48E1F5A9791CF686AD59818 /* Pods-PrepCore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
