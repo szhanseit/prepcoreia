@@ -14,6 +14,7 @@
 		1C260D2B25472F6400F0EEA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C260D2925472F6400F0EEA2 /* Main.storyboard */; };
 		1C260D2D25472F6C00F0EEA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C260D2C25472F6C00F0EEA2 /* Assets.xcassets */; };
 		1C260D3025472F6C00F0EEA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C260D2E25472F6C00F0EEA2 /* LaunchScreen.storyboard */; };
+		1C455157258D259B000B75F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C455156258D259B000B75F5 /* GoogleService-Info.plist */; };
 		406A6ADAA49C0577F2A69E43 /* libPods-PrepCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 959D01BDD5A80EC0CFDA5004 /* libPods-PrepCore.a */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		1C260D2C25472F6C00F0EEA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C260D2F25472F6C00F0EEA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C260D3125472F6C00F0EEA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C455156258D259B000B75F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		959D01BDD5A80EC0CFDA5004 /* libPods-PrepCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrepCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48E1F5A9791CF686AD59818 /* Pods-PrepCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrepCore.release.xcconfig"; path = "Target Support Files/Pods-PrepCore/Pods-PrepCore.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +74,7 @@
 				1C260D2925472F6400F0EEA2 /* Main.storyboard */,
 				1C260D2C25472F6C00F0EEA2 /* Assets.xcassets */,
 				1C260D2E25472F6C00F0EEA2 /* LaunchScreen.storyboard */,
+				1C455156258D259B000B75F5 /* GoogleService-Info.plist */,
 				1C260D3125472F6C00F0EEA2 /* Info.plist */,
 			);
 			path = PrepCore;
@@ -83,7 +86,6 @@
 				182E674C2A710353B814D70F /* Pods-PrepCore.debug.xcconfig */,
 				E48E1F5A9791CF686AD59818 /* Pods-PrepCore.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -156,6 +158,7 @@
 			files = (
 				1C0B80752550796B0013AE11 /* abeezee in Resources */,
 				1C260D3025472F6C00F0EEA2 /* LaunchScreen.storyboard in Resources */,
+				1C455157258D259B000B75F5 /* GoogleService-Info.plist in Resources */,
 				1C260D2D25472F6C00F0EEA2 /* Assets.xcassets in Resources */,
 				1C260D2B25472F6400F0EEA2 /* Main.storyboard in Resources */,
 			);
