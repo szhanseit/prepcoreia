@@ -31,7 +31,7 @@
         <!--Welcome View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="WelcomeViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Main" id="BYZ-38-t0r" customClass="WelcomeViewController" customModule="PrepCore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -117,6 +117,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="xLz-1W-9PH"/>
+                    <connections>
+                        <outlet property="LoginButton" destination="rRB-ah-V4e" id="0uM-en-lgV"/>
+                        <outlet property="RegisterButton" destination="2zv-Dw-mKB" id="vAa-UV-Eoe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -230,10 +234,10 @@
             </objects>
             <point key="canvasLocation" x="1109" y="-117"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Menu View Controller-->
         <scene sceneID="xJo-6m-uKj">
             <objects>
-                <tableViewController id="lbE-pe-uTM" sceneMemberID="viewController">
+                <tableViewController id="lbE-pe-uTM" customClass="MenuViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="9jA-ty-QuX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -330,6 +334,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="JlC-mU-65a"/>
+                    <connections>
+                        <outlet property="tableView" destination="9jA-ty-QuX" id="bNh-t4-6G2"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mBY-1o-l5T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -405,6 +412,11 @@
                         <viewLayoutGuide key="safeArea" id="uJu-13-9D7"/>
                     </view>
                     <navigationItem key="navigationItem" id="MWr-Q7-hIb"/>
+                    <connections>
+                        <outlet property="EmailAddress" destination="ceb-cz-kka" id="cei-lg-0eN"/>
+                        <outlet property="LoginButton" destination="rJa-1Q-U6b" id="Sy9-OB-1W4"/>
+                        <outlet property="Password" destination="vvb-sC-KRj" id="duT-av-fNm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QPR-dm-PFH" sceneMemberID="firstResponder"/>
             </objects>

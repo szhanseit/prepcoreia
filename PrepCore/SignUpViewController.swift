@@ -18,11 +18,7 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var lastName: UITextField!
     @IBOutlet weak var firstName: UITextField!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.navigationController?.isNavigationBarHidden = true
-    }
-
+    
 
 }
 

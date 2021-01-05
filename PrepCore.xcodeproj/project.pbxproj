@@ -15,6 +15,9 @@
 		1C260D2D25472F6C00F0EEA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C260D2C25472F6C00F0EEA2 /* Assets.xcassets */; };
 		1C260D3025472F6C00F0EEA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C260D2E25472F6C00F0EEA2 /* LaunchScreen.storyboard */; };
 		1C455157258D259B000B75F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C455156258D259B000B75F5 /* GoogleService-Info.plist */; };
+		1C45515925A38385000B75F5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45515825A38385000B75F5 /* LoginViewController.swift */; };
+		1C45515B25A384AE000B75F5 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45515A25A384AE000B75F5 /* WelcomeViewController.swift */; };
+		1C45515D25A41F43000B75F5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45515C25A41F43000B75F5 /* MenuViewController.swift */; };
 		406A6ADAA49C0577F2A69E43 /* libPods-PrepCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 959D01BDD5A80EC0CFDA5004 /* libPods-PrepCore.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +33,9 @@
 		1C260D2F25472F6C00F0EEA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C260D3125472F6C00F0EEA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C455156258D259B000B75F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1C45515825A38385000B75F5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1C45515A25A384AE000B75F5 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		1C45515C25A41F43000B75F5 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		959D01BDD5A80EC0CFDA5004 /* libPods-PrepCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrepCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48E1F5A9791CF686AD59818 /* Pods-PrepCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrepCore.release.xcconfig"; path = "Target Support Files/Pods-PrepCore/Pods-PrepCore.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +78,9 @@
 				1C260D2525472F6400F0EEA2 /* SceneDelegate.swift */,
 				1C260D2725472F6400F0EEA2 /* SignUpViewController.swift */,
 				1C260D2925472F6400F0EEA2 /* Main.storyboard */,
+				1C45515C25A41F43000B75F5 /* MenuViewController.swift */,
+				1C45515A25A384AE000B75F5 /* WelcomeViewController.swift */,
+				1C45515825A38385000B75F5 /* LoginViewController.swift */,
 				1C260D2C25472F6C00F0EEA2 /* Assets.xcassets */,
 				1C260D2E25472F6C00F0EEA2 /* LaunchScreen.storyboard */,
 				1C455156258D259B000B75F5 /* GoogleService-Info.plist */,
@@ -196,6 +205,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C45515925A38385000B75F5 /* LoginViewController.swift in Sources */,
+				1C45515D25A41F43000B75F5 /* MenuViewController.swift in Sources */,
+				1C45515B25A384AE000B75F5 /* WelcomeViewController.swift in Sources */,
 				1C260D2825472F6400F0EEA2 /* SignUpViewController.swift in Sources */,
 				1C260D2425472F6400F0EEA2 /* AppDelegate.swift in Sources */,
 				1C260D2625472F6400F0EEA2 /* SceneDelegate.swift in Sources */,
