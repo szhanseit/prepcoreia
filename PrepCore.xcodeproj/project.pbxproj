@@ -18,6 +18,10 @@
 		1C45515925A38385000B75F5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45515825A38385000B75F5 /* LoginViewController.swift */; };
 		1C45515B25A384AE000B75F5 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45515A25A384AE000B75F5 /* WelcomeViewController.swift */; };
 		1C45515D25A41F43000B75F5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45515C25A41F43000B75F5 /* MenuViewController.swift */; };
+		1C45515F25A4D9E6000B75F5 /* FoodPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45515E25A4D9E6000B75F5 /* FoodPageViewController.swift */; };
+		1C45516125A4DA61000B75F5 /* Meals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45516025A4DA61000B75F5 /* Meals.swift */; };
+		1C45516325A82A52000B75F5 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45516225A82A52000B75F5 /* Menu.swift */; };
+		1CF83D0A25B160D000012E77 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF83D0925B160D000012E77 /* FoodCell.swift */; };
 		406A6ADAA49C0577F2A69E43 /* libPods-PrepCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 959D01BDD5A80EC0CFDA5004 /* libPods-PrepCore.a */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +40,10 @@
 		1C45515825A38385000B75F5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1C45515A25A384AE000B75F5 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		1C45515C25A41F43000B75F5 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		1C45515E25A4D9E6000B75F5 /* FoodPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPageViewController.swift; sourceTree = "<group>"; };
+		1C45516025A4DA61000B75F5 /* Meals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meals.swift; sourceTree = "<group>"; };
+		1C45516225A82A52000B75F5 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		1CF83D0925B160D000012E77 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
 		959D01BDD5A80EC0CFDA5004 /* libPods-PrepCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrepCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48E1F5A9791CF686AD59818 /* Pods-PrepCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrepCore.release.xcconfig"; path = "Target Support Files/Pods-PrepCore/Pods-PrepCore.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,7 +86,11 @@
 				1C260D2525472F6400F0EEA2 /* SceneDelegate.swift */,
 				1C260D2725472F6400F0EEA2 /* SignUpViewController.swift */,
 				1C260D2925472F6400F0EEA2 /* Main.storyboard */,
+				1CF83D0925B160D000012E77 /* FoodCell.swift */,
+				1C45515E25A4D9E6000B75F5 /* FoodPageViewController.swift */,
 				1C45515C25A41F43000B75F5 /* MenuViewController.swift */,
+				1C45516025A4DA61000B75F5 /* Meals.swift */,
+				1C45516225A82A52000B75F5 /* Menu.swift */,
 				1C45515A25A384AE000B75F5 /* WelcomeViewController.swift */,
 				1C45515825A38385000B75F5 /* LoginViewController.swift */,
 				1C260D2C25472F6C00F0EEA2 /* Assets.xcassets */,
@@ -205,10 +217,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C45516125A4DA61000B75F5 /* Meals.swift in Sources */,
 				1C45515925A38385000B75F5 /* LoginViewController.swift in Sources */,
 				1C45515D25A41F43000B75F5 /* MenuViewController.swift in Sources */,
+				1C45515F25A4D9E6000B75F5 /* FoodPageViewController.swift in Sources */,
 				1C45515B25A384AE000B75F5 /* WelcomeViewController.swift in Sources */,
 				1C260D2825472F6400F0EEA2 /* SignUpViewController.swift in Sources */,
+				1C45516325A82A52000B75F5 /* Menu.swift in Sources */,
+				1CF83D0A25B160D000012E77 /* FoodCell.swift in Sources */,
 				1C260D2425472F6400F0EEA2 /* AppDelegate.swift in Sources */,
 				1C260D2625472F6400F0EEA2 /* SceneDelegate.swift in Sources */,
 			);

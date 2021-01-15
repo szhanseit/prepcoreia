@@ -12,6 +12,8 @@ class MenuViewController: UIViewController {
 
     @IBOutlet var tableView: UITableView!
     
+    var menu = Menu()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -36,11 +38,12 @@ class MenuViewController: UIViewController {
 
 extension MenuViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
+        return menu.data.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "FoodCell", for: indexPath) as! FoodCell
+        return cell
     }
 
 }
