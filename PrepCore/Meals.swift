@@ -14,14 +14,13 @@ struct Meals {
     var generalInfo: String
     var entree: Array<String>
     var side: Array<String>
-    var image: UIImage
+    var image = UIImage(named: "menuFoodImg")
     
     init(mealType : String, generalInfo : String, entree: Array<String>, side: Array<String>) {
         self.mealType = mealType
         self.generalInfo = generalInfo
         self.entree = entree
         self.side = side
-        // self.image =   should default to a standard image in assets
     }
     
 

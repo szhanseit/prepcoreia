@@ -9,12 +9,16 @@
 import UIKit
 
 class FoodPageViewController: UIViewController {
-
+    
+    var meal = Meals(mealType: "Lean Lunch", generalInfo: "The Lean lunch involves: ", entree: ["Chicken","Fish"], side: ["Rice", "Potato"])
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
     }
+    
     
 
     /*

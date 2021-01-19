@@ -12,7 +12,7 @@ struct Menu {
     let data = [
         Meals(mealType: "Lean Lunch", generalInfo: "The Lean lunch involves: ", entree: ["Chicken","Fish"], side: ["Rice", "Potato"]),
         Meals(mealType: "Bulk lunch", generalInfo: "The Bulk lunch involves: ", entree: ["Chicken","Beef"], side: ["Rice","Pasta"]),
-    Meals(mealType: "High Calorie Lunch", generalInfo: "The High Calorie Lunch involves: ", entree: ["Beef, Fish"], side: ["Pasta"])
+        Meals(mealType: "High Calorie Lunch", generalInfo: "The High Calorie Lunch involves: ", entree: ["Beef, Fish"], side: ["Pasta"])
     ]
     
     

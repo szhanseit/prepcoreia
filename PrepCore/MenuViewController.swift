@@ -43,6 +43,9 @@ extension MenuViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FoodCell", for: indexPath) as! FoodCell
+        let menuFood = menu.data[indexPath.row]
+        cell.foodImage.image = menuFood.image
+        cell.foodLabel.text = menuFood.mealType
         return cell
     }
 
