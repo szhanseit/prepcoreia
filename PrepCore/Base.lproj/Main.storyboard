@@ -166,21 +166,6 @@
                                 <fontDescription key="fontDescription" name="ABeeZee-Regular" family="ABeeZee" pointSize="28"/>
                                 <textInputTraits key="textInputTraits" textContentType="password"/>
                             </textField>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="wdh-eU-HEe">
-                                <rect key="frame" x="35" y="190" width="343" height="43"/>
-                                <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3bi-Vy-Ftu">
-                                        <rect key="frame" x="0.0" y="0.0" width="170.5" height="43"/>
-                                        <fontDescription key="fontDescription" name="ABeeZee-Regular" family="ABeeZee" pointSize="28"/>
-                                        <textInputTraits key="textInputTraits" textContentType="given-name"/>
-                                    </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2CD-qb-bfm">
-                                        <rect key="frame" x="172.5" y="0.0" width="170.5" height="43"/>
-                                        <fontDescription key="fontDescription" name="ABeeZee-Regular" family="ABeeZee" pointSize="28"/>
-                                        <textInputTraits key="textInputTraits" textContentType="family-name"/>
-                                    </textField>
-                                </subviews>
-                            </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign up now" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="157-FJ-c4s">
                                 <rect key="frame" x="120" y="115" width="174" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -209,6 +194,18 @@
                                     <segue destination="lbE-pe-uTM" kind="show" id="oZ5-nb-skX"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X9K-et-Z23">
+                                <rect key="frame" x="208" y="190" width="170.5" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ABeeZee-Regular" family="ABeeZee" pointSize="28"/>
+                                <textInputTraits key="textInputTraits" textContentType="family-name"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JYx-lo-Al1">
+                                <rect key="frame" x="36" y="190" width="170.5" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ABeeZee-Regular" family="ABeeZee" pointSize="28"/>
+                                <textInputTraits key="textInputTraits" textContentType="given-name"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <accessibility key="accessibilityConfiguration">
@@ -220,8 +217,8 @@
                     <connections>
                         <outlet property="confirmPassword" destination="fPj-MJ-heR" id="0fK-k1-UUt"/>
                         <outlet property="emailAddress" destination="scA-oU-TSB" id="4yM-5W-aOG"/>
-                        <outlet property="firstName" destination="3bi-Vy-Ftu" id="xUO-JY-6Yj"/>
-                        <outlet property="lastName" destination="2CD-qb-bfm" id="H8Y-LB-8fU"/>
+                        <outlet property="firstName" destination="JYx-lo-Al1" id="vcI-N8-fs8"/>
+                        <outlet property="lastName" destination="X9K-et-Z23" id="f6p-eQ-d75"/>
                         <outlet property="password" destination="neA-Eg-Mx2" id="5jv-eC-7UL"/>
                         <outlet property="signUpButton" destination="HnN-J0-ujl" id="5Jt-Tm-AS5"/>
                         <outlet property="teleNumber" destination="9Zi-nf-J9a" id="stD-I1-v7H"/>
@@ -308,28 +305,28 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hON-0B-DED">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="92.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="107"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRj-9f-ykD">
-                                        <rect key="frame" x="0.0" y="102.5" width="414" height="92"/>
+                                        <rect key="frame" x="0.0" y="117" width="414" height="106.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJF-eV-eG5">
-                                        <rect key="frame" x="0.0" y="204.5" width="414" height="92.5"/>
+                                        <rect key="frame" x="0.0" y="233.5" width="414" height="107"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Entree" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uIj-5o-0CH">
-                                        <rect key="frame" x="0.0" y="307" width="414" height="92"/>
+                                        <rect key="frame" x="0.0" y="350.5" width="414" height="107"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cTZ-7M-65u" userLabel="Entree Table">
-                                        <rect key="frame" x="0.0" y="409" width="414" height="92.5"/>
+                                        <rect key="frame" x="0.0" y="467.5" width="414" height="107"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EntreeCell" id="I1f-Wf-xcb" customClass="EntreeCell" customModule="PrepCore" customModuleProvider="target">
@@ -355,41 +352,18 @@
                                         </prototypes>
                                     </tableView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Side" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O10-8F-WDh">
-                                        <rect key="frame" x="0.0" y="511.5" width="414" height="92"/>
+                                        <rect key="frame" x="0.0" y="584.5" width="414" height="106.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0Qa-gL-iwW" userLabel="Side Table">
-                                        <rect key="frame" x="0.0" y="613.5" width="414" height="92.5"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="uTj-Lv-sb0" customClass="SideCell" customModule="PrepCore" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
-                                                <autoresizingMask key="autoresizingMask"/>
-                                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uTj-Lv-sb0" id="6n7-Ig-new">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FDK-Gq-WKq">
-                                                            <rect key="frame" x="186" y="11" width="42" height="21"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                    </subviews>
-                                                </tableViewCellContentView>
-                                                <connections>
-                                                    <outlet property="sideLabel" destination="FDK-Gq-WKq" id="IWH-lg-ohE"/>
-                                                </connections>
-                                            </tableViewCell>
-                                        </prototypes>
-                                    </tableView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N19-ev-8rp">
-                                        <rect key="frame" x="0.0" y="716" width="414" height="92"/>
+                                        <rect key="frame" x="0.0" y="701" width="414" height="107"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <state key="normal" title="PURCHASE"/>
+                                        <connections>
+                                            <segue destination="T20-66-42l" kind="show" id="gdp-3N-d5a"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -409,14 +383,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="mWY-ip-W05"/>
                     <connections>
+                        <outlet property="entreeTable" destination="cTZ-7M-65u" id="1kc-rc-hhK"/>
                         <outlet property="image" destination="hON-0B-DED" id="QHn-8L-IAY"/>
                         <outlet property="info" destination="IJF-eV-eG5" id="Uku-Sv-aj0"/>
                         <outlet property="mealTitle" destination="oRj-9f-ykD" id="DHO-B5-eUL"/>
                         <outlet property="purchaseButton" destination="N19-ev-8rp" id="ZDZ-Sd-jef"/>
                         <outlet property="selectEntree" destination="uIj-5o-0CH" id="9qF-Gg-6si"/>
                         <outlet property="selectSide" destination="O10-8F-WDh" id="XH8-Zn-U3d"/>
-                        <outlet property="tableView" destination="cTZ-7M-65u" id="dBL-zw-n07"/>
-                        <outlet property="tableViewTwo" destination="0Qa-gL-iwW" id="c7e-Hd-gHo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HoW-8e-vAn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -426,7 +399,7 @@
         <!--Login View Controller-->
         <scene sceneID="aQc-Yl-qdK">
             <objects>
-                <viewController id="zVd-Nv-kLd" customClass="LoginViewController" sceneMemberID="viewController">
+                <viewController id="zVd-Nv-kLd" customClass="LoginViewController" customModule="PrepCore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ybx-yJ-qkh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -513,6 +486,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Oo4-I1-XPG"/>
                     </view>
+                    <navigationItem key="navigationItem" id="mcU-6b-iEy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qb1-QK-lSH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
