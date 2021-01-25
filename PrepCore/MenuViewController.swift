@@ -17,11 +17,24 @@ class MenuViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        
         tableView.dataSource = self
         navigationItem.hidesBackButton = true
         
         // Do any additional setup after loading the view.
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+           // Get the new view controller using segue.destination.
+           // Pass the selected object to the new view controller.
+        if segue.identifier == "GoToFood" {
+            let vc = segue.destination as! FoodPageViewContoller
+            let row = tableView.indexPathForSelectedRow?.row
+            vc.meal = menu.data[row!]
+        }
+        
+       }
     
 
     /*
@@ -48,5 +61,8 @@ extension MenuViewController: UITableViewDataSource {
         cell.foodLabel.text = menuFood.mealType
         return cell
     }
-
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "ToGoFood", sender: self)
+    }
 }
