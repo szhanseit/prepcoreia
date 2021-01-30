@@ -10,7 +10,6 @@ import UIKit
 
 class SideCell: UITableViewCell {
     
-    
     @IBOutlet weak var sideLabel: UILabel!
     
     override func awakeFromNib() {
