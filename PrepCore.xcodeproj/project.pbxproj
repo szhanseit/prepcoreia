@@ -23,7 +23,7 @@
 		1C45516325A82A52000B75F5 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45516225A82A52000B75F5 /* Menu.swift */; };
 		1CF83D0A25B160D000012E77 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF83D0925B160D000012E77 /* FoodCell.swift */; };
 		1CF83D0C25B7547200012E77 /* EntreeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF83D0B25B7547200012E77 /* EntreeCell.swift */; };
-		1CF83D0E25BA82A900012E77 /* Side Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF83D0D25BA82A800012E77 /* Side Cell.swift */; };
+		1CF83D0E25BA82A900012E77 /* SideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF83D0D25BA82A800012E77 /* SideCell.swift */; };
 		1CF83D1025BB419800012E77 /* FinishPurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF83D0F25BB419800012E77 /* FinishPurchaseViewController.swift */; };
 		406A6ADAA49C0577F2A69E43 /* libPods-PrepCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 959D01BDD5A80EC0CFDA5004 /* libPods-PrepCore.a */; };
 /* End PBXBuildFile section */
@@ -48,7 +48,7 @@
 		1C45516225A82A52000B75F5 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		1CF83D0925B160D000012E77 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
 		1CF83D0B25B7547200012E77 /* EntreeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntreeCell.swift; sourceTree = "<group>"; };
-		1CF83D0D25BA82A800012E77 /* Side Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Side Cell.swift"; sourceTree = "<group>"; };
+		1CF83D0D25BA82A800012E77 /* SideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideCell.swift; sourceTree = "<group>"; };
 		1CF83D0F25BB419800012E77 /* FinishPurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishPurchaseViewController.swift; sourceTree = "<group>"; };
 		959D01BDD5A80EC0CFDA5004 /* libPods-PrepCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrepCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48E1F5A9791CF686AD59818 /* Pods-PrepCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrepCore.release.xcconfig"; path = "Target Support Files/Pods-PrepCore/Pods-PrepCore.release.xcconfig"; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 				1C260D2725472F6400F0EEA2 /* SignUpViewController.swift */,
 				1C260D2925472F6400F0EEA2 /* Main.storyboard */,
 				1CF83D0F25BB419800012E77 /* FinishPurchaseViewController.swift */,
-				1CF83D0D25BA82A800012E77 /* Side Cell.swift */,
+				1CF83D0D25BA82A800012E77 /* SideCell.swift */,
 				1CF83D0B25B7547200012E77 /* EntreeCell.swift */,
 				1CF83D0925B160D000012E77 /* FoodCell.swift */,
 				1C45515E25A4D9E6000B75F5 /* FoodPageViewController.swift */,
@@ -238,7 +238,7 @@
 				1C260D2425472F6400F0EEA2 /* AppDelegate.swift in Sources */,
 				1CF83D0C25B7547200012E77 /* EntreeCell.swift in Sources */,
 				1C260D2625472F6400F0EEA2 /* SceneDelegate.swift in Sources */,
-				1CF83D0E25BA82A900012E77 /* Side Cell.swift in Sources */,
+				1CF83D0E25BA82A900012E77 /* SideCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
