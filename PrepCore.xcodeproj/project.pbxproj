@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C0B80752550796B0013AE11 /* abeezee in Resources */ = {isa = PBXBuildFile; fileRef = 1C0B80742550796B0013AE11 /* abeezee */; };
 		1C260D2425472F6400F0EEA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C260D2325472F6400F0EEA2 /* AppDelegate.swift */; };
 		1C260D2625472F6400F0EEA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C260D2525472F6400F0EEA2 /* SceneDelegate.swift */; };
 		1C260D2825472F6400F0EEA2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C260D2725472F6400F0EEA2 /* SignUpViewController.swift */; };
@@ -22,15 +21,12 @@
 		1C45516125A4DA61000B75F5 /* Meals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45516025A4DA61000B75F5 /* Meals.swift */; };
 		1C45516325A82A52000B75F5 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C45516225A82A52000B75F5 /* Menu.swift */; };
 		1CF83D0A25B160D000012E77 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF83D0925B160D000012E77 /* FoodCell.swift */; };
-		1CF83D0C25B7547200012E77 /* EntreeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF83D0B25B7547200012E77 /* EntreeCell.swift */; };
-		1CF83D0E25BA82A900012E77 /* SideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF83D0D25BA82A800012E77 /* SideCell.swift */; };
 		1CF83D1025BB419800012E77 /* FinishPurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF83D0F25BB419800012E77 /* FinishPurchaseViewController.swift */; };
 		406A6ADAA49C0577F2A69E43 /* libPods-PrepCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 959D01BDD5A80EC0CFDA5004 /* libPods-PrepCore.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		182E674C2A710353B814D70F /* Pods-PrepCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrepCore.debug.xcconfig"; path = "Target Support Files/Pods-PrepCore/Pods-PrepCore.debug.xcconfig"; sourceTree = "<group>"; };
-		1C0B80742550796B0013AE11 /* abeezee */ = {isa = PBXFileReference; lastKnownFileType = folder; name = abeezee; path = ../../../../Downloads/abeezee; sourceTree = "<group>"; };
 		1C260D2025472F6400F0EEA2 /* PrepCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrepCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C260D2325472F6400F0EEA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C260D2525472F6400F0EEA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,8 +43,6 @@
 		1C45516025A4DA61000B75F5 /* Meals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meals.swift; sourceTree = "<group>"; };
 		1C45516225A82A52000B75F5 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		1CF83D0925B160D000012E77 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
-		1CF83D0B25B7547200012E77 /* EntreeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntreeCell.swift; sourceTree = "<group>"; };
-		1CF83D0D25BA82A800012E77 /* SideCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideCell.swift; sourceTree = "<group>"; };
 		1CF83D0F25BB419800012E77 /* FinishPurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishPurchaseViewController.swift; sourceTree = "<group>"; };
 		959D01BDD5A80EC0CFDA5004 /* libPods-PrepCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrepCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48E1F5A9791CF686AD59818 /* Pods-PrepCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrepCore.release.xcconfig"; path = "Target Support Files/Pods-PrepCore/Pods-PrepCore.release.xcconfig"; sourceTree = "<group>"; };
@@ -87,14 +81,11 @@
 		1C260D2225472F6400F0EEA2 /* PrepCore */ = {
 			isa = PBXGroup;
 			children = (
-				1C0B80742550796B0013AE11 /* abeezee */,
 				1C260D2325472F6400F0EEA2 /* AppDelegate.swift */,
 				1C260D2525472F6400F0EEA2 /* SceneDelegate.swift */,
 				1C260D2725472F6400F0EEA2 /* SignUpViewController.swift */,
 				1C260D2925472F6400F0EEA2 /* Main.storyboard */,
 				1CF83D0F25BB419800012E77 /* FinishPurchaseViewController.swift */,
-				1CF83D0D25BA82A800012E77 /* SideCell.swift */,
-				1CF83D0B25B7547200012E77 /* EntreeCell.swift */,
 				1CF83D0925B160D000012E77 /* FoodCell.swift */,
 				1C45515E25A4D9E6000B75F5 /* FoodPageViewController.swift */,
 				1C45515C25A41F43000B75F5 /* MenuViewController.swift */,
@@ -186,7 +177,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C0B80752550796B0013AE11 /* abeezee in Resources */,
 				1C260D3025472F6C00F0EEA2 /* LaunchScreen.storyboard in Resources */,
 				1C455157258D259B000B75F5 /* GoogleService-Info.plist in Resources */,
 				1C260D2D25472F6C00F0EEA2 /* Assets.xcassets in Resources */,
@@ -236,9 +226,7 @@
 				1CF83D0A25B160D000012E77 /* FoodCell.swift in Sources */,
 				1CF83D1025BB419800012E77 /* FinishPurchaseViewController.swift in Sources */,
 				1C260D2425472F6400F0EEA2 /* AppDelegate.swift in Sources */,
-				1CF83D0C25B7547200012E77 /* EntreeCell.swift in Sources */,
 				1C260D2625472F6400F0EEA2 /* SceneDelegate.swift in Sources */,
-				1CF83D0E25BA82A900012E77 /* SideCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

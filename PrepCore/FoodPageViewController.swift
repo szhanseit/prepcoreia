@@ -69,13 +69,12 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
     
     if tableView == entreeTable{
     cell = tableView.dequeueReusableCell(withIdentifier: "EntreeCell", for: indexPath as IndexPath)
-    let entreeLbl = cell.viewWithTag(1)as! UILabel
-        entreeLbl.text = meal.entree[indexPath.row] 
+        cell.textLabel?.text = meal.entree[indexPath.row]
     }
     if tableView == sideTable{
     cell = tableView.dequeueReusableCell(withIdentifier: "SideCell", for: indexPath as IndexPath)
-    let sideLbl = cell.viewWithTag(2)as! UILabel
-        sideLbl.text = meal.side[indexPath.row] 
+        cell.textLabel?.text = meal.side[indexPath.row]
+
     }
     return cell
   /*  let cell = tableView.dequeueReusableCell(withIdentifier: "EntreeCell", for: indexPath) as! EntreeCell
