@@ -15,11 +15,18 @@ class WelcomeViewController: UIViewController {
     
     @IBOutlet weak var RegisterButton: UIButton!
     
+    
+    @IBAction func pressLogin(_ sender: UIButton) {
+        performSegue(withIdentifier: "goToLogin", sender: self)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.isNavigationBarHidden = true
     }
 
+    
     /*
     // MARK: - Navigation
 

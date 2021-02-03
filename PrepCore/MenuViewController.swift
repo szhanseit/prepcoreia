@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MenuViewController: UIViewController {
+class MenuViewController: UIViewController, UITableViewDelegate {
 
     @IBOutlet var tableView: UITableView!
     
@@ -18,8 +18,8 @@ class MenuViewController: UIViewController {
         super.viewDidLoad()
 
         
-        
-        tableView.dataSource = self
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
         navigationItem.hidesBackButton = true
         
         // Do any additional setup after loading the view.
@@ -63,6 +63,7 @@ extension MenuViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "ToGoFood", sender: self)
+        
+        self.performSegue(withIdentifier: "GoToFood", sender: self)
     }
 }
