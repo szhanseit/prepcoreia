@@ -10,11 +10,20 @@ import UIKit
 
 class FinishPurchaseViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var button: UIButton!
+    
+    var meal = Meals(mealType: "Lean Lunch", generalInfo: "The Lean lunch involves: ", entree: ["Chicken","Fish"], side: ["Rice", "Potato"])
+    let finalLbl = "Thank you for purchasing "
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        label.text = finalLbl + meal.mealType + "!"
+        
         // Do any additional setup after loading the view.
     }
+    
     
 
     /*

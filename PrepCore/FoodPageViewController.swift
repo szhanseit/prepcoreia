@@ -32,11 +32,18 @@ class FoodPageViewContoller: UIViewController {
         // Do any additional setup after loading the view.
         entreeTable.dataSource = self
         sideTable.dataSource = self
-        
-        
     }
-    
-    
+    /*
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+        if segue.identifier == "Finish Purchase View Controller" {
+            let vc = segue.destination as! FinishPurchaseViewController
+            let labelTwo = entreeTable.indexPathForSelectedRow?.row
+        }
+            
+    }
+    */
 
     /*
     // MARK: - Navigation
