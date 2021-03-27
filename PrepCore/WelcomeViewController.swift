@@ -10,12 +10,12 @@ import UIKit
 
 class WelcomeViewController: UIViewController {
 
-    
+    // Outlets connecting to Storyboard elements in the welcome page
     @IBOutlet weak var LoginButton: UIButton!
     
     @IBOutlet weak var RegisterButton: UIButton!
     
-    
+    // An action performed which activates the segue to navigate user to next page
     @IBAction func pressLogin(_ sender: UIButton) {
         performSegue(withIdentifier: "goToLogin", sender: self)
     }
@@ -23,18 +23,7 @@ class WelcomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Done in order to hide navigation bar
         self.navigationController?.isNavigationBarHidden = true
     }
-
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

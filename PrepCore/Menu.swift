@@ -8,15 +8,14 @@
 
 import UIKit
 
+// The Menu struct which contains the information and data regarding the meals
+// More meals can be added into to the array to create an even bigger menu!
 struct Menu {
     let data = [
-        Meals(mealType: "Lean Lunch", generalInfo: "The Lean lunch involves: ", entree: ["Chicken","Fish"], side: ["Rice", "Potato"]),
-        Meals(mealType: "Bulk lunch", generalInfo: "The Bulk lunch involves: ", entree: ["Chicken","Beef"], side: ["Rice","Pasta"]),
-        Meals(mealType: "High Calorie Lunch", generalInfo: "The High Calorie Lunch involves: ", entree: ["Beef", "Fish"], side: ["Pasta"])
+        Meals(mealType: "Lean Lunch", generalInfo: "The Lean lunch meal, less calories and fat, for active athletes!", entree: ["Chicken","Fish"], side: ["Rice", "Potato"], image: #imageLiteral(resourceName: "menuFoodImg2")),
+        Meals(mealType: "Bulk lunch", generalInfo: "The Bulk lunch meal, more calories and fat, to gain mass!", entree: ["Chicken","Beef"], side: ["Rice","Pasta"], image: #imageLiteral(resourceName: "MenuFoodImage")),
+        Meals(mealType: "High Calorie Lunch", generalInfo: "The High Calorie Lunch meal, large amount of calories, for energy!", entree: ["Beef", "Fish"], side: ["Pasta"], image: #imageLiteral(resourceName: "menuFoodImg"))
     ]
-    
-    
-    //let data = ["Rice with chicken","Rice with beef","Rice with fish","Mashed potato with chicken","Mashed potato with beef","Mashed potato with fish","Pasta with chicken","Pasta with beef","Pasta with fish"]
 }
 
 

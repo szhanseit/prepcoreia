@@ -9,7 +9,8 @@
 import UIKit
 
 class FoodCell: UITableViewCell {
-
+    
+    // Outlets connecting to Storyboard elements in the custom table view cell, FoodCell
     @IBOutlet weak var foodImage: UIImageView!
     @IBOutlet weak var foodLabel: UILabel!
     

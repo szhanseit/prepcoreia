@@ -9,7 +9,9 @@
 import UIKit
 
 class SignUpViewController: UIViewController {
-
+    
+    // Outlets connecting to Storyboard elements in the register page
+    @IBOutlet weak var backBtn: UIImageView!
     @IBOutlet weak var signUpButton: UIButton!
     @IBOutlet weak var confirmPassword: UITextField!
     @IBOutlet weak var password: UITextField!
@@ -18,7 +20,10 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var lastName: UITextField!
     @IBOutlet weak var firstName: UITextField!
     
-    
+    override func viewDidLoad() {
+        
+    }
 
+    
 }
 
